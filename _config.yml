@@ -1,3 +1,4 @@
 # Bu dosyalar depoda durur ama sitede yayınlanmaz
 exclude:
   - CLAUDE.md
+  - README.md

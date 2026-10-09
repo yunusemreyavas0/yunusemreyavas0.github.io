@@ -7,7 +7,8 @@ Yayın adresi: https://yunusemreyavas0.github.io (GitHub Pages, `main` dalı, de
 - `index.html` — tüm içerik (tek sayfa)
 - `style.css` — stiller; renkler ve fontlar `:root` altındaki değişkenlerde
 - `script.js` — tema düğmesi ve TR/EN dil değişimi (İngilizce metinler burada)
-- `_config.yml` — sitede yayınlanmayacak dosyalar (bu dosya dahil)
+- `_config.yml` — sitede yayınlanmayacak dosyalar (bu dosya ve README dahil)
+- `README.md` — depo sayfasında görünen kısa tanıtım ve site bağlantısı
 
 ## Kurallar
 
