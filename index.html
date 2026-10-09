@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yunus Emre Yavaş</title>
+  <meta name="description" content="Afyon Kocatepe Üniversitesi'nde 3. sınıf Bilgisayar Mühendisliği öğrencisi. Swift ve SwiftUI ile iOS/macOS uygulamaları geliştiriyor.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="https://yunusemreyavas0.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Yunus Emre Yavaş">
+  <meta property="og:description" content="3. sınıf Bilgisayar Mühendisliği öğrencisi. Swift, SwiftUI, iOS ve macOS.">
+  <meta property="og:url" content="https://yunusemreyavas0.github.io/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦉</text></svg>">
+  <script>
+    try {
+      var t = localStorage.getItem("theme");
+      if (t) document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="top">
+      <a class="home" href="#">~/yunusemreyavas</a>
+      <nav>
+        <a href="#hakkimda" data-i18n="nav.about">hakkımda</a>
+        <a href="#projeler" data-i18n="nav.projects">projeler</a>
+        <a href="#beceriler" data-i18n="nav.skills">beceriler</a>
+        <a href="#egitim" data-i18n="nav.education">eğitim</a>
+        <a href="#iletisim" data-i18n="nav.contact">iletişim</a>
+      </nav>
+      <div class="controls">
+        <div class="lang" role="group" aria-label="Dil / Language">
+          <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button id="theme" type="button" aria-label="Açık/koyu tema" title="Açık/koyu tema">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
+            <path d="M12 4a8 8 0 0 0 0 16z" fill="currentColor"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h1>Yunus Emre Yavaş</h1>
+        <p class="lede" data-i18n="lede">3. sınıf Bilgisayar Mühendisliği öğrencisiyim. Apple ekosistemi mühendisliği üzerine odaklanıyorum.</p>
+        <p class="where">Afyonkarahisar, Türkiye</p>
+      </section>
+
+      <section id="hakkimda" class="row">
+        <h2 data-i18n="nav.about">hakkımda</h2>
+        <div class="body">
+          <p data-i18n="about.1">Swift ve SwiftUI ile iOS/macOS uygulaması geliştirmenin yanı sıra web üzerinden çalışan bir motor ve şanzıman simülatörü yaptım. Nesne Yönelimli Programlama, Veri Yapıları, Veritabanı Yönetimi ve Web Programlama alanlarında akademik temele sahibim.</p>
+          <p data-i18n="about.2">Meraklıyım, farklı alanlarda öğrenmeye ve gelişmeye açığım. Sorunlara sakin ve çözüm odaklı yaklaşırım, ekip çalışmasına yatkınım.</p>
+        </div>
+      </section>
+
+      <section id="projeler" class="row">
+        <h2 data-i18n="nav.projects">projeler</h2>
+        <div class="body">
+          <article class="entry">
+            <header>
+              <h3 data-i18n="p1.title">Motor &amp; Şanzıman Simülatörü</h3>
+              <a class="ext" href="https://engine-simulation.netlify.app" target="_blank" rel="noopener">engine-simulation.netlify.app</a>
+            </header>
+            <p class="stack">HTML · CSS · JavaScript</p>
+            <p data-i18n="p1.desc">Araç motorlarının (sıralı, V, W, boxer, elektrikli) ve manuel/otomatik şanzımanların çalışma mantığını fizik formülleriyle hesaplayıp canlı gösteren, tarayıcıda çalışan eğitici bir web uygulaması. Claude Code gibi yapay zekâ araçlarıyla geliştirdim, Git/GitHub ile sürüm yönetimi yaptım, Netlify ile yayınladım.</p>
+          </article>
+
+          <article class="entry">
+            <header>
+              <h3 data-i18n="p2.title">Çapraz Platform iOS/macOS Uygulaması</h3>
+              <span class="status" data-i18n="p2.status">devam ediyor</span>
+            </header>
+            <p class="stack">Swift · SwiftUI · SwiftData · Xcode</p>
+            <ul>
+              <li data-i18n="p2.1">Apple ekosistemi için hem iOS hem macOS'ta çalışan kişisel bir uygulama geliştiriyorum.</li>
+              <li data-i18n="p2.2">Cihazlar arası veri senkronizasyonu ve kalıcı veri yönetimi için SwiftData entegre ediyorum.</li>
+              <li data-i18n="p2.3">Xcode üzerinden fiziksel cihaz deployment ve uygulama konfigürasyonlarını yönetiyorum.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="beceriler" class="row">
+        <h2 data-i18n="nav.skills">beceriler</h2>
+        <div class="body">
+          <dl class="skills">
+            <dt data-i18n="s.lang">Programlama dilleri</dt>
+            <dd>Swift, C, C#, SQL, PHP</dd>
+            <dt>Web</dt>
+            <dd>HTML, CSS, JavaScript</dd>
+            <dt data-i18n="s.tools">Framework ve araçlar</dt>
+            <dd>SwiftUI, SwiftData, Xcode, VS Code</dd>
+            <dt data-i18n="s.concepts">Kavramlar</dt>
+            <dd data-i18n="s.concepts.v">Nesne Yönelimli Programlama (OOP), Veri Yapıları, Veritabanı Yönetimi, Web Geliştirme</dd>
+            <dt data-i18n="s.spoken">Diller</dt>
+            <dd data-i18n="s.spoken.v">Türkçe (anadil), İngilizce (A2)</dd>
+          </dl>
+        </div>
+      </section>
+
+      <section id="egitim" class="row">
+        <h2 data-i18n="nav.education">eğitim</h2>
+        <div class="body">
+          <article class="entry">
+            <header>
+              <h3 data-i18n="e.school">Afyon Kocatepe Üniversitesi</h3>
+              <span class="status" data-i18n="e.date">Eyl. 2024 – devam ediyor</span>
+            </header>
+            <p data-i18n="e.degree">Bilgisayar Mühendisliği Lisans · GPA 3.21 / 4.00</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="iletisim" class="row">
+        <h2 data-i18n="nav.contact">iletişim</h2>
+        <div class="body">
+          <p class="links">
+            <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=yunusemreyavas0@gmail.com" target="_blank" rel="noopener" data-i18n="c.mail">E-posta</a>
+            <a href="https://www.linkedin.com/in/yunus-emre-yava%C5%9F-5b4b8b363" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/yunusemreyavas0" target="_blank" rel="noopener">GitHub</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span>© 2026 Yunus Emre Yavaş</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
