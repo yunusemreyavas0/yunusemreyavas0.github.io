@@ -26,11 +26,11 @@ Yayın adresi: https://yunusemreyavas0.github.io (GitHub Pages, `main` dalı, de
 
 ## İçerik kaynağı
 
-- Sitedeki bilgiler CV ile aynı olmalı. CV'de olmayan bilgi uydurma; emin değilsen sor.
+- Sitedeki bilgiler CV ile aynı olmalı; İngilizce metinler İngilizce CV'deki ifadeleri izler (birinci tekil şahsa çevrilmiş halde). CV'de olmayan bilgi uydurma; emin değilsen sor.
 - CV dosyası (PDF veya LaTeX kaynağı) bu depoya asla eklenmez ve siteden indirilebilir olmaz. CV yalnızca içerik için referanstır; kullanıcı güncel halini ayrıca verir.
 
 ## Yayınlama
 
-- Değişiklikten sonra commit at, ardından kullanıcı `git push` yapar. Push 1-2 dakika içinde siteye yansır.
+- Değişiklikten sonra commit at ve `git push` yap (kimlik bilgisi macOS Anahtar Zinciri'nde kayıtlı). Push 1-2 dakika içinde siteye yansır.
 - Commit'ler yalnızca kullanıcının adıyla atılır; `Co-Authored-By` satırı eklenmez.
-- Push için GitHub token gerekir; token'ı kullanıcı kendi terminalinde girer. Token'ı dosyaya, commit'e veya sohbete yazma.
+- Push kimlik hatası verirse token'ın süresi dolmuştur; kullanıcı yenisini oluşturup kendi terminalinde girer. Token'ı dosyaya, commit'e veya sohbete yazma.
